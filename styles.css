@@ -420,7 +420,7 @@ form > button:hover,
     background: rgb(218, 206, 208);
 }
 
-@media(max-width:100px){
+@media(max-width:900px){
 
     /* menú desde celular*/
     .menu{
