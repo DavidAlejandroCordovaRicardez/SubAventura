@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SUBAVENTURA</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="shortcut icon" href="images/Alterra_Logo.ico" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <style>
         .links a {
             color: #FFFFFF; /* Cambia el color */
         }
     </style>
+    
+    <title>SUBAVENTURA</title>
 </head>
 <body>
     <!– Menú conctato –>
-    <header class="header1">
+    <header class="header2">
         <div class="menu container">
             <a href="#" class="logo">SubAventura</a>
             <input type="checkbox" id="menu" />
@@ -30,63 +32,71 @@
                     <li><a href="#">Fauna</a></li>
                     <li><a href="#">Vehiculos</a></li>
                     <li><a href="#">Materiales</a></li>
-                    <li><a href="#">Conctato</a></li>
+                    <li><a href="conctato.html">Conctato</a></li>
 
                 </ul>
             </nav>
         </div>
-        
-        <!– Inicio conctato –>
-        <div class="header-conctato">
-            <div class="box-info">
-                <h1>CONTACTE CON NOSOTROS</h1>
-                <div class="data">
-                    <p>
-                        <i class="fa-solid fa-phone"></i>
-                        +52 9231173687
-                    </p>
-                    <p>
-                        <i class="fa-solid fa-envelope"></i>
-                        Cordovaricardezdavid@gmail.com
-                    </p>
-                    <p>
-                        <i class="fa-solid fa-location-dot"></i>
-                        Cmo. a Cartago s/n, Vega Redonda, 93610 Martínez de la Torre, Ver.
-                    </p>
+        <!– Inicio –>
+                <div class="header-content container">
+                    <div class="header-txt-bioma">
+                        <h1>
+                            <span>Biomas</span>
+                        </h1>
+                        <p>
+                            Subnautica contiene una gran variedad de Biomas para explorar 
+                            y coexistir con ellos. Todos ellos representan ecosistemas en miniaturas del mundo real. 
+                            <br><br>
+                            Hay una gran variedad de biomas, desde el Bosque de Algas, hasta las candentes 
+                            profundidades de los enigmáticos Lagos Volcánicos. Cada bioma contiene su propia 
+                            flora y fauna para que sean descubiertas, y recursos para que sean extraídos. 
+                        </p>
+                        <div class="butons">
+                            <a href="#info" class="btn-1">Información</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="links">
-                    <a href="#"><i class="fab fa-facebook-f fa-lg"></i></a>
-                    <a href="https://twitter.com/Subnautica" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
-                    <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
-                    <a href="#"><i class="fab fa-youtube fa-lg"></i></a>
-                </div>
-                <form>
-                    <div class="input-box">
-                        <input type="text" required placeholder="Nombre y apellido">
-                    </div>
-                    <dir class="input-box">
-                        <input type="email" required placeholder="Correo electrónico">
-                    </dir>
-                    <div class="input-box">
-                        <input type="text" required placeholder="Asunto">
-                    </div>
-                    <div class="input-box">
-                        <textarea cols="30" rows="10"  placeholder="Escribe tu mensaje"></textarea>
-                    </div>
-                    <button type="submit">Enviar mensaje</button>
-                </form>
-            </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2924.9633304386393!2d-97.0340990655692!3d20.05260127029713!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85db024bf8195e27%3A0x6fc34575c330a655!2sInstituto%20Tecnol%C3%B3gico%20Superior%20De%20Mart%C3%ADnez%20De%20La%20Torre!5e1!3m2!1ses-419!2smx!4v1710434540320!5m2!1ses-419!2smx" 
-            width="800" height="600" style="border: 5px solid aqua;" 
-            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
-        </div>
-        
     </header>
-    
-    
 
 
-        <!– Menú bajo –>
+    <!-- INFO DE BIOMAS -->
+    <div class="info-bioma">
+        <div class="card">
+            <img src="images/1.webp">
+            <h4>Zona Algas de Sangre</h4>
+            <P>
+                Naufragio grande (2) <br>
+                Cápsula salvavidas destruida (1) <br>
+                Géiser Volcánico (3) <br>
+                Arco escondido de la Zona Bulbos (1)
+            </P>
+            <a href="#">Leer más</a>           
+        </div>
+
+        <div class="card">
+            <img src="images/Bulb_Zone_Biome.webp">
+            <h4>Zona Bulbos</h4>
+            <P>Naufragio grande (1) (Fosa) 
+                <br>
+                Cápsula salvavidas destruida (1) (Norte)
+                <br>
+                Santuario de las Algas de Sangre (Norte)
+            </P>
+            <a href="#">Leer más</a>           
+        </div>
+
+        <div class="card">
+            <img src="images/Crag_Field_Biome.webp">
+            <h4>Campo de Riscos</h4>
+            <P>
+                Arco escondido del Campo de Riscos (1) <br>
+                Cápsula salvavidas destruida
+            </P>
+            <a href="#">Leer más</a>           
+        </div>
+    </div>
+
+    <!– Menú bajo –>
     <footer class="footer container">
         <div class="link">
             <a href="#" class="logo">SubAventura</a>
